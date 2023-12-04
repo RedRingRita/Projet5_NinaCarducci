@@ -3,7 +3,8 @@ body {
 	margin: auto;
 }
 * {
-	font-family: 'Inter';
+	font-family: 'Inter', 'arial', sans-serif;
+	font-display: swap;
 	font-style: normal;
 }
 .top-header {
@@ -69,8 +70,9 @@ body {
 
 .picture img {
 	width: 100%;
-
+	height: auto;
 }
+
 #about-me {
 	flex: 2
 }
@@ -80,7 +82,8 @@ body {
 	font-size: 30px;
 }
 .about-me__introduction {
-	font-family: 'Spectral';
+	font-family: 'Spectral', 'arial', sans-serif;
+	font-display: swap;
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
@@ -137,20 +140,18 @@ body {
 }
 
 .quote {
-	font-family: 'Spectral';
+	font-family: 'Spectral', ;
+	font-display: swap;
 	font-style: italic;
 	width: 70%;
 	margin: auto;
 	padding-block: 3em;
 }
 .quote__text {
-	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
-
 }
 .quote__author {
-	font-family: Spectral;
 	font-weight: 800;
 	font-size: 22px;
 }
@@ -244,6 +245,13 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+.contact_details{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-weight: bold;
+}
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
@@ -255,7 +263,7 @@ input[type="submit"] {
 		margin-top: 0;
 		margin-bottom: 1em;
 	}
-	#about-me h6, #about-me p {
+	#about-me h3, #about-me p {
 		width: 100%;
 	}
 }
@@ -263,11 +271,12 @@ input[type="submit"] {
 @media all and (max-width: 1000px) {
 	#about{
 		flex-direction: column;
-
 	}
+
 	.picture {
 		width: 50%;
 	}
+
 	.picture.left::before {
 		width: 100%;
 		height: 30%;
@@ -277,13 +286,16 @@ input[type="submit"] {
 		left: 0;
 		z-index: -1;
 	}
+
 	.about-me__title{
 		text-align: center;
 		margin-top: 1em;
 	}
+
 	#services .container {
 		flex-direction: column;
 	}
+
 	.service {
 		width: 100%;
 		max-width: 100%;
@@ -316,6 +328,10 @@ input[type="submit"] {
 		bottom: 0;
 		right: 0;
 		z-index: -1;
+	}
+
+	form{
+		width: 100%;
 	}
 }
 
