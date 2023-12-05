@@ -83,10 +83,10 @@ body {
 }
 .about-me__introduction {
 	font-family: 'Spectral', 'arial', sans-serif;
-	font-display: swap;
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+	font-size: 1em;
 }
 #about-me p {
 	width: 80%;
@@ -148,6 +148,7 @@ body {
 	padding-block: 3em;
 }
 .quote__text {
+	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
 }
