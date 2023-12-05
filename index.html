@@ -9,7 +9,7 @@
 		<link rel="stylesheet" href="./assets/style.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="preload" as="style" onload="this.rel='stylesheet'">
 	</head>
 	<body>
 		<div class="top-header">
@@ -36,10 +36,10 @@
 						<img src="./assets/images_optimised/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.jpg" width="1920" height="888" class="d-block w-100 h-auto" alt="Photo d'un homme traversant un passage piéton">
 					</div>
 					<div class="carousel-item">
-						<img src="./assets/images_optimised/slider/nicholas-green-nPz8akkUmDI-unsplash.jpg" width="1920" height="888" class="d-block w-100 h-auto" alt="Photo d'un public lors d'un concert">
+						<img src="./assets/images_optimised/slider/nicholas-green-nPz8akkUmDI-unsplash.jpg" loading="lazy" width="1920" height="888" class="d-block w-100 h-auto" alt="Photo d'un public lors d'un concert">
 					</div>
 					<div class="carousel-item">
-						<img src="./assets/images_optimised/slider/edward-cisneros-3_h6-1NPDGw-unsplash.jpg" width="1920" height="888" class="d-block w-100 h-auto" alt="Photo d'un mariage">
+						<img src="./assets/images_optimised/slider/edward-cisneros-3_h6-1NPDGw-unsplash.jpg" loading="lazy" width="1920" height="888" class="d-block w-100 h-auto" alt="Photo d'un mariage">
 					</div>
 				</div>
 				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -147,7 +147,7 @@
 					</form>
 				</div>
 				<div class="picture right">
-					<img src="./assets/images_optimised_webp/camera.webp" width="548" height="548" alt="Photo d'un appareil photo">
+					<img src="./assets/images_optimised_webp/camera.webp" loading="lazy" width="548" height="548" alt="Photo d'un appareil photo">
 				</div>
 			</div>
 
