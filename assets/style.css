@@ -4,7 +4,6 @@ body {
 }
 * {
 	font-family: 'Inter', 'arial', sans-serif;
-	font-display: swap;
 	font-style: normal;
 }
 .top-header {
@@ -140,8 +139,7 @@ body {
 }
 
 .quote {
-	font-family: 'Spectral', ;
-	font-display: swap;
+	font-family: 'Spectral';
 	font-style: italic;
 	width: 70%;
 	margin: auto;
