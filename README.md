@@ -1,0 +1,1 @@
+Website optimization project. Whether it's SEO for search engines, metadata for social networks or improving the semantics used in the html code, as well as optimizing the images used on the site to speed up web page loading.
